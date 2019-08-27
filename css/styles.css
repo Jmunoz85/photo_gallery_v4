@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: dodgerblue;
+  font-size: 52px;
+  font-family: cursive;
+}
+#search {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  vertical-align: center;
+  padding: 10px;
+  width: 475px;
+  height: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  border-color: lightgray;
+}
+.search-container {
+  text-align: center;
+}
+.gallery {
+  text-align: center;
+  padding-top: 20px;
+  margin: 10px, 50px;
+}
+.gallery img {
+  width: 245px;
+  padding: 15px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+@media (min-width:768px) {
+  .gallery img {
+    width: 240px;
+    padding: 10px;
+  }
