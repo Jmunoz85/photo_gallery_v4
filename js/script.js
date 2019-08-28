@@ -7,7 +7,7 @@ searchBar.addEventListener("keyup", function (event) {
     const title = photo.getAttribute('data-title');
     console.log(title)
     if (title.toLowerCase().indexOf(term) != -1) {
-      photo.style.display = 'block';
+      photo.style.display = 'inline';
     } else {
       photo.style.display = 'none';
     }
