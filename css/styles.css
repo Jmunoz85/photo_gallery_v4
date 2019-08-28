@@ -2,19 +2,11 @@ body {
   font-family: sans-serif;
   margin: 0 auto;
 }
-h1 {
-  text-align: center;
-  color: green;
-  font-size: 52px;
-  font-family: cursive;
-}
 #search {
-  margin-top: 10px;
+  margin: 10px auto;
   padding-bottom: 10px;
-  display: inline-block;
-  vertical-align: center;
   padding: 10px;
-  width: 475px;
+  width: 35%;
   height: 15px;
   border-radius: 5px;
   background-color: #fff;
@@ -39,8 +31,11 @@ h1 {
   filter: grayscale(0);
   transform: scale(1.1);
 }
+.lb-caption {
+  font-size: 18px;
+}
 @media (min-width:768px) {
   .gallery img {
-    width: 240px;
-    padding: 10px;
+    width: 200px;
+    padding: 30px;
   }
