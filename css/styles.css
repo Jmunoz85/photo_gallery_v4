@@ -19,7 +19,7 @@ body {
 .gallery {
   text-align: center;
   padding-top: 20px;
-  margin: 10px, 50px;
+  margin: 10px 50px;
 }
 .gallery img {
   width: 245px;
@@ -31,11 +31,9 @@ body {
   filter: grayscale(0);
   transform: scale(1.1);
 }
-.lb-caption {
-  font-size: 18px;
-}
 @media (min-width:768px) {
   .gallery img {
     width: 200px;
     padding: 30px;
-  }
+ }
+}
