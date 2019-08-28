@@ -22,7 +22,7 @@ body {
   margin: 10px 50px;
 }
 .gallery img {
-  width: 245px;
+  width: 50%;
   padding: 15px;
   filter: grayscale(100%);
   transition: 1s;
@@ -31,9 +31,10 @@ body {
   filter: grayscale(0);
   transform: scale(1.1);
 }
-@media (min-width:768px) {
+
+@media (min-width: 768px) {
   .gallery img {
-    width: 200px;
+    width: 17%;
     padding: 30px;
  }
 }
